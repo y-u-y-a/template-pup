@@ -1,0 +1,13 @@
+{
+    "root": true,
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": ["eslint:recommended"],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "version": 8, // ECMA2017, asyncでエラーが出るため
+        "sourceType": "module" // commonJS -> ES6
+    }
+}
